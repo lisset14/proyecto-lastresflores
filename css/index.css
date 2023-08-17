@@ -2,10 +2,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Benne&family=Nunito+Sans:wght@200&family=Pacifico&family=Roboto:wght@700&family=Wix+Madefor+Text:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Benne&family=Nunito+Sans:opsz,wght@6..12,200&family=Pacifico&family=Wix+Madefor+Text:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Benne&family=Borel&family=Lora:wght@700&family=Nunito+Sans:wght@200&family=Pacifico&family=Roboto:wght@700&family=Wix+Madefor+Text:wght@500&display=swap');
+
 body{
     background-color: #FAEBE2;
 }
-
 
 .logo-lg{
     text-align: center;
@@ -52,7 +52,6 @@ body{
     padding: 10px;
     margin: 10px;
     font-weight: bold;
-
 }
 
 #bienvenida-md h2{
@@ -112,7 +111,6 @@ body{
     background-color: #F0B2AA;
     color: black;
     border: #C74665;
-
 }
 
 .card-title{
@@ -146,7 +144,7 @@ body{
 }
 
 
-.footer-lg{
+.footer-lg {
     background-color: #C74665;
     padding: 10px 10px 10px 10px;
 }
@@ -154,8 +152,6 @@ body{
 .card-body{
     text-align: center;
     margin: auto;
-    
-
 }
 
 .card-title-footer{
@@ -179,7 +175,6 @@ body{
 
 /*for tablet*/
 @media (min-width:768px) and (max-width: 991px){
-
     .logo-lg{
         display: none;
     }
@@ -197,7 +192,6 @@ body{
     .menu-md{
         display: block;
         background-color: #F0B2AA;
-       
         font-family: 'Roboto', sans-serif;
     }
     
@@ -227,7 +221,6 @@ body{
         padding: 10px;
         margin: 10px;
         font-weight: bold;
-    
     }
 
     #bienvenida-lg{
@@ -259,7 +252,6 @@ body{
         padding: 10px;
         margin: 10px;
         font-weight: bold;
-
     }
 
     #productos-lg h2{
@@ -291,7 +283,6 @@ body{
         background-color: #F0B2AA;
         color: black;
         border: #C74665;
-    
     }
     
     .card-title{
@@ -339,15 +330,10 @@ body{
     .footer-sm{
         display: none;
     }
-
-    
 }
 
-
-
 /*for phone*/
-@media(min-width: 320px) and (max-width: 767px) {
-
+@media(min-width: 320px) and (max-width: 767px){
     .logo-lg{
         display: none;
     }
@@ -382,7 +368,6 @@ body{
         border-radius: 20px 20px 20px 20px ;
     }
 
-    
     .offcanvas-end{
         background-color: #F0B2AA;
     }
@@ -390,7 +375,6 @@ body{
     .offcanvas-body{
         background-color: #F0B2AA;
     }
-    
     
     #bienvenida-sm h2{
         display: block;
@@ -400,7 +384,6 @@ body{
         padding: 10px;
         margin: 10px;
         font-weight: bold;
-    
     }
     
     #bienvenida-lg{
@@ -464,7 +447,6 @@ body{
         background-color: #F0B2AA;
         color: black;
         border: #C74665;
-    
     }
     
     .card-title{
@@ -512,10 +494,6 @@ body{
         background-color: #C74665;
         padding: 10px 10px 10px 10px;
     }
-
-
-
-
 }
 
 
